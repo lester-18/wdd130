@@ -1,9 +1,13 @@
+:root {
+    --thecolor:white;
+} 
+
 nav{
     background-color: steelblue;
     padding: 10px;
 }
 nav a{
-    color:white;
+    color:var(--thecolor);
     display: block;
     padding: 20px;   
 }
@@ -15,7 +19,7 @@ img{
     height:auto;
     border: 1px blue;
     padding: 2px;
-    box-shadow: 0 0 30 gray;
+    box-shadow: 0px 0px 30px gray;
 }
 p{
     padding: 10px;
@@ -29,10 +33,10 @@ aside{
     border: 5px dashed black;
     padding: 1rem;
     background-color: #55a9b4;
-    color: white;
+    color: var(--thecolor);
     text-align: center;
 }
-aside image{
+aside img{
 width: 200px;
 height: auto;
 }
