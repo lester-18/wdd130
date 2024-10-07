@@ -52,3 +52,9 @@ footer{
     border-top: 1px solid #000;
     text-align: center;
 }
+main h1 {
+    font-family: Georgia;
+}
+main p {
+    font-family: 'Arial Black';
+}
